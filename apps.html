@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AppsConCamilo | Sistemas para Restaurantes</title>
+  <meta name="description" content="Sistema POS para restaurantes: ventas, inventario y reportes en tiempo real. Demo gratis." />
+
+  <style>
+    :root{
+      --blue:#0d47a1;
+      --red:#e53935;
+      --bg:#f6f7fb;
+      --text:#222;
+    }
+
+    *{box-sizing:border-box;margin:0;padding:0}
+
+    body{
+      font-family: 'Segoe UI', Tahoma, sans-serif;
+      background:var(--bg);
+      color:var(--text);
+      line-height:1.6;
+    }
+
+    header{
+      background:linear-gradient(120deg,var(--blue),var(--red));
+      color:#fff;
+      padding:70px 20px;
+      text-align:center;
+    }
+
+    header h1{font-size:2.7rem;margin-bottom:10px}
+    header p{font-size:1.2rem}
+
+    nav{
+      position:fixed;
+      width:100%;
+      top:0;
+      background:white;
+      padding:10px 20px;
+      display:flex;
+      justify-content:space-between;
+      align-items:center;
+      box-shadow:0 2px 10px rgba(0,0,0,0.1);
+      z-index:1000;
+    }
+
+    nav strong{color:var(--blue)}
+
+    .btn{
+      display:inline-block;
+      padding:12px 25px;
+      background:var(--red);
+      color:white;
+      text-decoration:none;
+      border-radius:8px;
+      font-weight:bold;
+      transition:0.3s;
+    }
+
+    .btn:hover{opacity:0.9}
+
+    section{
+      padding:60px 20px;
+      max-width:1100px;
+      margin:auto;
+    }
+
+    h2{text-align:center;margin-bottom:30px}
+
+    .grid{
+      display:grid;
+      grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+      gap:20px;
+    }
+
+    .card{
+      background:white;
+      padding:20px;
+      border-radius:12px;
+      text-align:center;
+      box-shadow:0 4px 15px rgba(0,0,0,0.08);
+    }
+
+    .demo img{
+      width:100%;
+      border-radius:12px;
+      box-shadow:0 5px 20px rgba(0,0,0,0.1);
+    }
+
+    .problems p{margin:8px 0}
+
+    .cta{
+      background:var(--blue);
+      color:white;
+      text-align:center;
+      padding:60px 20px;
+      border-radius:15px;
+    }
+
+    .testimonial{
+      font-style:italic;
+      background:white;
+      padding:20px;
+      border-left:5px solid var(--red);
+      border-radius:10px;
+    }
+
+    .faq{
+      margin-top:20px;
+    }
+
+    .faq-item{
+      background:white;
+      margin-bottom:10px;
+      padding:15px;
+      border-radius:8px;
+    }
+
+    footer{
+      text-align:center;
+      padding:20px;
+      background:#111;
+      color:white;
+      margin-top:40px;
+    }
+
+    .whatsapp{
+      position:fixed;
+      bottom:20px;
+      right:20px;
+      background:#25D366;
+      color:white;
+      padding:16px;
+      border-radius:50%;
+      font-size:22px;
+      text-decoration:none;
+      box-shadow:0 4px 10px rgba(0,0,0,0.3);
+    }
+
+  </style>
+</head>
+<body>
+
+<nav>
+  <strong>AppsConCamilo</strong>
+  <a href="https://wa.me/57XXXXXXXXXX" class="btn">Demo</a>
+</nav>
+
+<header>
+  <h1>Aumenta las ventas de tu restaurante 🚀</h1>
+  <p>Controla pedidos, inventario y ganancias desde tu celular</p>
+  <br>
+  <a href="https://wa.me/57XXXXXXXXXX" class="btn">Solicitar demo gratis</a>
+</header>
+
+<section>
+  <h2>¿Qué incluye el sistema?</h2>
+  <div class="grid">
+    <div class="card">📊 Ventas (POS)</div>
+    <div class="card">📦 Inventario automático</div>
+    <div class="card">📱 Uso desde celular</div>
+    <div class="card">📈 Reportes diarios</div>
+  </div>
+</section>
+
+<section class="demo">
+  <h2>Así funciona</h2>
+  <img src="https://via.placeholder.com/900x450" alt="Sistema">
+</section>
+
+<section class="problems">
+  <h2>¿Te pasa esto?</h2>
+  <p>❌ No sabes cuánto vendes</p>
+  <p>❌ Pierdes dinero</p>
+  <p>❌ No controlas inventario</p>
+
+  <h3 style="margin-top:20px;text-align:center">Solución 👇</h3>
+  <p style="text-align:center">Control total en tiempo real de tu negocio</p>
+</section>
+
+<section>
+  <h2>Testimonio</h2>
+  <div class="testimonial">"Ahora sé exactamente cuánto gano cada día"</div>
+</section>
+
+<section>
+  <h2>Sobre mí</h2>
+  <p style="text-align:center">Soy Camilo, desarrollador de sistemas para restaurantes. Ayudo a negocios a organizar sus ventas y aumentar sus ganancias.</p>
+</section>
+
+<section class="cta">
+  <h2>Empieza hoy</h2>
+  <p>Agenda tu demo gratis ahora</p>
+  <br>
+  <a href="https://wa.me/57XXXXXXXXXX" class="btn">Escríbeme</a>
+</section>
+
+<section>
+  <h2>Preguntas frecuentes</h2>
+  <div class="faq">
+    <div class="faq-item">¿Funciona en celular? → Sí</div>
+    <div class="faq-item">¿Necesito internet? → Puede funcionar en red local</div>
+    <div class="faq-item">¿Tiene soporte? → Sí</div>
+  </div>
+</section>
+
+<footer>
+  <p>© 2026 AppsConCamilo</p>
+</footer>
+
+<a href="https://wa.me/573227965878" class="whatsapp">💬</a>
+
+</body>
+</html>
